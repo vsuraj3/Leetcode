@@ -77,19 +77,4 @@ class BinaryTree
 	}
 }
 
-public class PreorderBinary_Tree 
-{
-	public static void main(String[] args) 
-	{
-		BinaryTree tree=new BinaryTree();
-		tree.root=new node(1);
-	//	tree.root.left=new node(4);
-		tree.root.right=new node(2);
-	//	tree.root.left.left=new node(6);
-		//tree.root.left.right=new node(7);
-		tree.root.right.left=new node(3);
-		//tree.root.right.right=new node(9);
-		tree.preorder();
-		tree.inorder();
-	}
-}
+
