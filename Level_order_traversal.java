@@ -32,7 +32,6 @@ class binary_tree
 
 			while(!queue.isEmpty())
 			{
-				
 				node1 temp =queue.poll();
 				System.out.println(temp.data);
 				if(temp.left!=null)
