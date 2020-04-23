@@ -29,7 +29,7 @@ class binary_tree
 		{
 			Queue<node1> queue=new LinkedList<node1>();
 			queue.offer(root);
-			//System.out.println("dnbjkw");
+
 			while(!queue.isEmpty())
 			{
 				
