@@ -32,7 +32,7 @@ class binary_tree
 			//System.out.println("dnbjkw");
 			while(!queue.isEmpty())
 			{
-				//System.out.println("anbd");
+				
 				node1 temp =queue.poll();
 				System.out.println(temp.data);
 				if(temp.left!=null)
