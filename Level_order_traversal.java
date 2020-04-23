@@ -55,7 +55,7 @@ public class Level_order_traversal
 		tree.root=new node1(1);
 		tree.root.left=new node1(2);
 		tree.root.right=new node1(3);
-		tree.root.left.left=new node1(4);
+		
 		tree.root.left.right=new node1(5);
 		tree.root.right.right=new node1(7);
 		tree.level_order();
