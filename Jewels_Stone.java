@@ -6,7 +6,7 @@ class Solution {
         for(int i=0; i<J.length(); i++)
             h.add(J.charAt(i));
         
-        for(int i=0; i<S.length(); i++)
+        for(int i=1; i<S.length(); i++)
             if(h.contains(S.charAt(i)))
                 sum++;
         return sum;
