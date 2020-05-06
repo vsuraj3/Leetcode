@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-import java.util.ueue;
+import java.util.Queue;
 
 class node1
 {
