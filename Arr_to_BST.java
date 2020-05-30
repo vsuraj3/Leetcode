@@ -11,7 +11,7 @@
  *         this.left = left;
  *         this.right = right;
  *     }
- * }
+ * 
  */
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
