@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution1 {
+class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums==null || nums.length==0){
             return null;
