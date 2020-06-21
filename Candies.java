@@ -1,4 +1,4 @@
-class Solution {
+class Solution1233 {
    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) 
 {
 	java.util.List<Boolean> al=new ArrayList<Boolean>();
