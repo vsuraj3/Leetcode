@@ -1,4 +1,4 @@
-class Solution {
+class Solution 12{
     public int climbStairs(int n) {
         int arr[]=new int[n+1];
         arr[0]=1;
