@@ -2,7 +2,7 @@ package leetcode;
 class Solution {
     public String defangIPaddr(String address) 
     {
-        address=address.eplace(".", "[.]");
+        address=address.replace(".", "[.]");
         return address;     
     }
 }
